@@ -1,18 +1,14 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Navbar from "@/app/components/Navbar/Navbar";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main className={styles.main}>
-        <Navbar/>
-      <div>
+      <Navbar />
+      {/* <div>
         <h1>Navbar</h1>
         <h1>Search and cart Bar</h1>
-      </div>
+      </div> */}
       <div>
         <h1>list of categories</h1>
         <h1>landing Swiper</h1>
